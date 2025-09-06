@@ -1,4 +1,4 @@
-const names = [
+    const names = [
       "Hussein Mahmoud Fouad Elsaid",
       "ABDALLA BESHR MAHMOUD GOUHAR",
       "Aya Gamal Hanfe hassen",
@@ -52,7 +52,7 @@ const names = [
     }
 
     function launchConfetti() {
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 40; i++) {
         const confetti = document.createElement("div");
         confetti.classList.add("confetti");
         confetti.style.left = Math.random() * 100 + "vw";
